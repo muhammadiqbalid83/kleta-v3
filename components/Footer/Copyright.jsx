@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Copyright() {
   return (
     <div className="w-full h-auto ">
-      <div className="container border-t-2">
+      <div className="container border-t-[1px]">
         <div className="flex items-center py-[50px] justify-between">
           <p className="text-[0.8rem]">
             {' '}
