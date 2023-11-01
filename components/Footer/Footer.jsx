@@ -1,6 +1,6 @@
-import Copyright from './Footer/Copyright'
-import Sitemap from './Footer/Sitemap'
-import Subscribe from './Footer/Subscribe'
+import Copyright from './Copyright'
+import Sitemap from './Sitemap'
+import Subscribe from './Subscribe'
 
 export default function Footer() {
   return (

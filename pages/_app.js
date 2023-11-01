@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import { Jost } from 'next/font/google'
 
-import Footer from '@/components/Footer'
+import { Footer } from '../components/'
 import { Header } from '../components/'
 
 const font = Jost({
