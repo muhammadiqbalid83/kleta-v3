@@ -155,6 +155,83 @@ export default function Home() {
       {/* BRAND */}
       {/* OFFER */}
       {/* BLOG */}
+      <div className="w-full h-auto">
+        <div className="container">
+          <div className="mt-12">
+            <h4 className="text-[30px] font-semibold text-center">
+              Berita Terbaru Kita
+            </h4>
+            <p className="text-[17px] w-[840px] mt-4 flex ml-[210px] text-center text-[#75767C]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+              ipsum suspendisse ultrices gravida. Risus commodo viverra vel
+              facilisis.
+            </p>
+          </div>
+          <div className="flex justify-between mt-11">
+            <div className="w-[404px]">
+              <Image
+                src="https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/blog-4-700x517.jpg"
+                width={404}
+                height={298}
+                alt="blog"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#75767C] text-[12px]">
+                  COLLECTION - 25 Apr 2022
+                </h5>
+                <h2 className="font-semibold mt-3 text-[1.3rem]">
+                  The Best Products That Shape Fashion
+                </h2>
+                <p className="text-[#75767C] mt-1">
+                  Donec rhoncus quis diam sit amet faucibus. Vivamus
+                  pellentesque, sem sed convallis ultricies, ante eros
+                </p>
+              </div>
+            </div>
+            <div className="w-[404px]">
+              <Image
+                src="https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/blog-5-700x517.jpg"
+                width={404}
+                height={298}
+                alt="blog"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#75767C] text-[12px]">
+                  COLLECTION - 25 Apr 2022
+                </h5>
+                <h2 className="font-semibold mt-3 text-[1.3rem]">
+                  New Finds From Tuckernuck
+                </h2>
+                <p className="text-[#75767C] mt-1">
+                  Donec rhoncus quis diam sit amet faucibus. Vivamus
+                  pellentesque, sem sed convallis ultricies, ante eros
+                </p>
+              </div>
+            </div>
+            <div className="w-[404px]">
+              <Image
+                src="https://k4j3j2s7.rocketcdn.me/clotya/wp-content/uploads/2022/04/blog-6-700x517.jpg"
+                width={404}
+                height={298}
+                alt="blog"
+              />
+              <div className="mt-5">
+                <h5 className="text-[#75767C] text-[12px]">
+                  COLLECTION - 25 Apr 2022
+                </h5>
+                <h2 className="font-semibold mt-3 text-[1.3rem]">
+                  Sunset Sets From Saks
+                </h2>
+                <p className="text-[#75767C] mt-1">
+                  Donec rhoncus quis diam sit amet faucibus. Vivamus
+                  pellentesque, sem sed convallis ultricies, ante eros
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   )
 }
