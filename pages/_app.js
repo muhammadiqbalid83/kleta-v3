@@ -1,7 +1,8 @@
 import '@/styles/globals.css'
 import { Jost } from 'next/font/google'
-import Header from '@/components/Header'
+
 import Footer from '@/components/Footer'
+import { Header } from '../components/'
 
 const font = Jost({
   subsets: ['latin'],
