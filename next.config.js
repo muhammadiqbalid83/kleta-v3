@@ -5,6 +5,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['klbtheme.com'],
+    domains: ['klbtheme.com', 'k4j3j2s7.rocketcdn.me'],
   },
 }
